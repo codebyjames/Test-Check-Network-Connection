@@ -11,6 +11,7 @@
 		FFC0087D2749B7F50089CC25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC0087C2749B7F50089CC25 /* ContentView.swift */; };
 		FFC0087F2749B7FA0089CC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC0087E2749B7FA0089CC25 /* Assets.xcassets */; };
 		FFC008822749B7FA0089CC25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFC008812749B7FA0089CC25 /* Preview Assets.xcassets */; };
+		FFC008892749B92F0089CC25 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC008882749B92E0089CC25 /* NetworkMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FFC0087C2749B7F50089CC25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FFC0087E2749B7FA0089CC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FFC008812749B7FA0089CC25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FFC008882749B92E0089CC25 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FFC0087A2749B7F50089CC25 /* Test_Check_Network_ConnectionApp.swift */,
 				FFC0087C2749B7F50089CC25 /* ContentView.swift */,
+				FFC008882749B92E0089CC25 /* NetworkMonitor.swift */,
 				FFC0087E2749B7FA0089CC25 /* Assets.xcassets */,
 				FFC008802749B7FA0089CC25 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FFC0087D2749B7F50089CC25 /* ContentView.swift in Sources */,
+				FFC008892749B92F0089CC25 /* NetworkMonitor.swift in Sources */,
 				FFC0087B2749B7F50089CC25 /* Test_Check_Network_ConnectionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
