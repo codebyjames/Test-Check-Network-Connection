@@ -15,7 +15,7 @@ struct ContentView: View {
     private let messageSuccess = "Successful network request!"
     private let messageFail = "Please check WiFi or Cellular connection"
     
-    @ViewBuilder var InternetView: some View {
+    @ViewBuilder var internetView: some View {
         Image(systemName: monitor.isConnected ? "wifi" : "wifi.slash")
             .font(.system(size: 60))
         Text(monitor.isConnected ? "Connected" : "Not Connected")
@@ -24,7 +24,7 @@ struct ContentView: View {
         
     var body: some View {
         VStack {
-            InternetView
+            internetView
             Button("Test Network") {
                 self.showAlertError = true
             }
